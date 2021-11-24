@@ -7,6 +7,10 @@
     color: #00285F;
 }
 
+.navbar-toggler-icon {
+    background-color: #00285F;
+}
+
 .main-menu {
     display: flex;
     font-size: 18px;
