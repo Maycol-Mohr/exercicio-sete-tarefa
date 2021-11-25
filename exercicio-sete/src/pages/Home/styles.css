@@ -1,29 +1,30 @@
 .home-container {
     padding: 10px;
     font-size: 20px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .home-card {
     display: flex;
     flex-direction: column-reverse;
     color: #FFF;
-    
     border-radius: 10px;
     background-color: #00285F;
 }
 
 .home-card2 {
-     
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #FFF;
-    
     border-radius: 10px;
     background-color: #EDEDED;
-    
+}
+
+.home-card2 p {
+     
+    padding-top: 0;  
+    padding-left: 20px;
 }
 
 .home-content-container {
@@ -31,7 +32,6 @@
     flex-direction: column;
     align-items: center;
     padding: 60px 10px 20px 10px;
-    
 }
 
 .home-content-container h1 {
@@ -60,11 +60,17 @@
 .btn-icon p {
     color: #585858;
     font-size: 18px;
+    padding-bottom: 0;
+    
 }
 
+.btn-icon {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 100px;
+}
 
 @media (min-width: 576px) {
-
 
     .home-card2 {
      
@@ -75,10 +81,10 @@
 
     .home-card2 p {
      
-        padding-top: 50px;  
+        padding-top: 30px;  
         padding-left: 20px;
+        
     }
-
 
     .home-container {
         padding: 15px;
@@ -88,11 +94,13 @@
     .home-content-container h1 {
         width: 506px;
         margin-bottom: 0;
+        font-size: 36px;
     }
 
     .home-content-container p {
         width: 600px;
         margin-bottom: 20px;
+        font-size: 24px;
         
     }
 
@@ -103,6 +111,12 @@
     .home-image-container svg {
         width: 506px;
         
+    }
+
+    .btn-icon {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 20px;
     }
 }
 
@@ -117,12 +131,9 @@
 
     .home-card2 p {
      
-        padding-top: 50;  
+        padding-top: 35px;  
         padding-left: 20px;
     }
-
-     
-
 
     .home-image-container {
         padding: 50px 40px;
@@ -140,10 +151,12 @@
         color: #FFFFFF;
         margin-bottom: 30px;
     }
-
-     
-
-     
+    
+    .btn-icon {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -157,7 +170,7 @@
 
     .home-card2 p {
      
-        padding-top: 50px;  
+        padding-top: 30px;  
         padding-left: 20px;
     }
     
@@ -165,8 +178,6 @@
         font-size: 36px;
         padding: 50px;
     }
-
-
 
     .home-image-container {
         padding: 125px 40px;
@@ -188,6 +199,12 @@
         width: 500px;
         margin-bottom: 47px;
     }
+
+    .btn-icon {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -202,15 +219,18 @@
 
     .home-card2 p {
      
-        padding-top: 50px;  
+        padding-top: 35px;  
         padding-left: 20px;
-    }
-    
-
-    
+    }    
 
     .home-card {
         flex-direction: row;
+    }
+
+    .btn-icon {
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 20px;
     }
 
     .home-content-container {

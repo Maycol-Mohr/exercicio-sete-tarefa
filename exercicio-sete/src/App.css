@@ -13,3 +13,9 @@ a, a:hover {
     text-decoration: none;
     color: unset;
 }
+
+.base-card {
+    color: #000000;
+    border-radius: 10px;
+    background-color: #EDEDED;
+}
